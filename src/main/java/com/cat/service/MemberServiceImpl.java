@@ -141,7 +141,7 @@ public class MemberServiceImpl implements MemberService {
 	    email.setSmtpPort(465);
 	    email.addTo(id, "");
 	    email.setFrom("boss_25@naver.com", "");
-	    email.setAuthentication("boss_25", "jhisaiah18");
+	    email.setAuthentication("", "");
 	    email.setSSL(true);
 	    email.setSubject("고양이 대통령의 새비밀번호입니다.");
 	    
